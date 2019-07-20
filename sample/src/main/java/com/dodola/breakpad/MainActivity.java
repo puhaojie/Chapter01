@@ -5,14 +5,14 @@ import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.view.View;
 
 import com.sample.breakpad.BreakpadInit;
 
 import java.io.File;
 
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 
 public class MainActivity extends Activity {
